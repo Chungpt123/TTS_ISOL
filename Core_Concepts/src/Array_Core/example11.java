@@ -11,7 +11,7 @@ public class example11 {
         n = scanner.nextInt();
         System.out.println("Nhap ma tran a[][]: ");
         arr = nhap(n, n, scanner);// goi phuong thuc nhap
-        System.out.println("Tổng các phần tử đường chéo chính và đường chéo phụ:" +Tong(arr, n));
+        System.out.println("Tổng các phần tử đường chéo chính và đường chéo phụ:" + Tong(arr, n));
 
 
     }

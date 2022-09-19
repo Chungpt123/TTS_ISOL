@@ -1,0 +1,22 @@
+{
+    "person": [
+        {
+            "name": "Chung",
+            "birthday": "11/11/2012",
+            "phone": "0984998602",
+            "hometown": "Hà Nội"
+        },
+        {
+            "name": "Mạnh",
+            "birthday": "11/11/2012",
+            "phone": "0984998602",
+            "hometown": "Hà Nội"
+        },
+        {
+            "name": "Mạnh",
+            "birthday": "11/11/2012",
+            "phone": "0984998602",
+            "hometown": "Hà Nội"
+        }
+    ]
+}

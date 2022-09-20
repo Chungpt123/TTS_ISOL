@@ -1,0 +1,255 @@
+/* <editor-fold desc="GENERAL"> */
+
+body {
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* </editor-fold desc="GENERAL"> */
+
+/* <editor-fold desc="HEADER"> */
+
+header {
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    padding-top: 2.8%;
+}
+
+.logo img {
+    width: 6%;
+    height: auto;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.menu-ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-ul li {
+    float: left;
+}
+
+.menu-ul li a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1vw;
+    text-decoration: none;
+    font-family: MontserratMedium;
+    color: black;
+}
+
+.menu-ul li a:hover {
+    color: rgb(218, 73, 73);
+}
+
+.active-link {
+    color: #10c9c3 !important;
+}
+
+.last-li-menu {
+    padding-right: 0% !important;
+}
+
+@media only screen and (min-width: 993px) {
+    .menu-ul li a {
+        padding: 20px 30px;
+        padding-right: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .menu-ul li a {
+        padding: 14px 20px;
+        padding-right: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .logo, .menu {
+        width: 100%;
+        text-align: center;
+    }
+    .menu-ul {
+        float: none;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .menu-ul li a {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo, .menu {
+        width: 100%;
+        text-align: center;
+    }
+    .menu-ul {
+        float: none;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .menu-ul li a {
+        font-size: 2vw;
+    }
+}
+
+
+
+footer {
+    padding: 5%;
+    display: inline-block;
+    width: 90%;
+    overflow: hidden;
+    background-color: #141414;
+    color: #bcbcbc;
+    vertical-align: middle;
+    font-size: 1.15vw;
+    width: 100%;
+}
+
+.footer-sign {
+    width: 65%;
+    float: left;
+}
+
+.footer-sign p, .footer-ul {
+    font-family: NunitoSansRegular;
+    font-weight: lighter;
+}
+
+.footer-email {
+    font-family: WorkSansRegular;
+    font-weight: lighter;
+}
+
+.sign h4 {
+    font-family: MontserratMedium;
+    font-weight: normal;
+    font-size: 1.5vw;
+    margin-top: 4%;
+}
+
+.footer-infor {
+    width: 35%;
+    float: left;
+    overflow: hidden;
+}
+
+.footer-ul {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.category-1, .category-2, .social-contact {
+    list-style-type: none;
+}
+
+.category-1 li a, .category-2 li a, .social-contact li a {
+    text-decoration: none;
+    color: #bcbcbc;
+}
+
+.category-1 li a:hover, .category-2 li a:hover, .social-contact li a:hover {
+    color: rgb(218, 73, 73) !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .category-1 {
+        width: 18%;
+        float: left;
+    }
+    .category-2 {
+        /* width: 35%; */
+        float: left;
+    }
+    .social-contact {
+        float: right;
+    }
+    .sign {
+        width: 60%;
+        float: left;
+    }
+    .footer-email {
+        width: 40%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .category-1 {
+        width: 18%;
+        float: left;
+    }
+    .category-2 {
+        /* width: 35%; */
+        float: left;
+    }
+    .social-contact {
+        float: right;
+    }
+    .sign {
+        width: 60%;
+        float: left;
+    }
+    .footer-email {
+        width: 40%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-sign, .footer-infor {
+        width: 100%;
+    }
+    .footer-infor {
+        padding-left: 20%;
+        padding-right: 20%;
+        width: 60%;
+    }
+    .footer-ul {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .category-1, .category-2, .social-contact {
+        padding: 0%;
+    }
+    .footer-sign {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20%;
+        width: 60%;
+        padding-right: 20%;
+    }
+    .footer-email {
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+}
+
+/* </editor-fold desc="FOOOTER"> */
